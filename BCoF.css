@@ -1,0 +1,542 @@
+﻿/* Start Css */
+html, body {
+	margin: 0px;
+	padding: 0px;
+	direction: rtl;
+	min-width: 1000px;
+	min-height: 600px;
+	background: #FFF;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.bginput:focus, textarea:focus {
+	border : 1px #ffeacb solid;
+	background: #fff7ec url('http://i56.servimg.com/u/f56/14/71/20/17/blight17.jpg') repeat-x center top;
+	color: #e39321;
+	text-shadow: 0 1px 0 #FFF;
+}
+input, select, textarea {
+	outline: none;
+	cursor: pointer;
+	margin: 2px;
+}
+ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-position: inside;
+}
+h1 {
+	font-size: 12px;
+}
+img {
+	border: none;
+}
+fieldset {
+	margin-bottom: 6px;
+	border: 1px #eeeeee solid;
+	background: #FFF;
+	font: bold 12px tahoma;
+}
+hr {
+	background: #eeeeee;
+	border-color: #eeeeee;
+}
+/* End Css */
+/* Bdayh Top Nav */
+.BTopNav {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/btopbg15.png') repeat-x scroll center top;
+	height: 72px;
+}
+.BTopNav ul {
+	float: right;
+	width: 430px;
+	margin: 0 25px 0 0;
+	height: 72px;
+}
+.BTopNav ul li {
+	display: inline;
+}
+.BTopNav ul li a {
+	float: right;
+	margin: 0 0 0 15px;
+	padding: 0 15px 0 0;
+	height: 72px;
+	line-height: 55px;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-decoration: none;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/btopdo15.png') no-repeat scroll right 25px;
+	color: #FFF;
+	text-shadow: 0px 1px 0px #5a448e;
+}
+.BTopNav .BLeft {
+	float: left;
+	background: transparent url('https://i63.servimg.com/u/f63/20/28/17/29/btople15.png') no-repeat;
+	width: 480px;
+	height: 39px;
+	margin: 10px 0 0 0;
+}
+.BTopNav .BLeft .BSearch {
+	float: right;
+	width: 215px;
+	margin: 0 143px 0 0;
+}
+.BTopNav .BLeft input {
+	border: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #FFF;
+	text-shadow: 0px 1px 0px #000;
+}
+.BTopNav .BLeft .SeaIn {
+	width: 146px;
+	padding: 11px 5px;
+	float: right;
+}
+.BTopNav .BLeft .SeaSub {
+	float: left;
+	width: 59px;
+	height: 39px;
+}
+.BTopNav .BLeft .BIco {
+	float: left;
+	margin: 0 0 0 15px;
+}
+/* Bdayh Header */
+.BHeader {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bheade42.png') repeat-x scroll center top;
+	height: 208px;
+}
+.BHeader .BHeader01 {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bheade43.png') no-repeat scroll right top;
+	padding: 0 76px 0 0;
+	height: 208px;
+}
+.BHeader .BHeader01 .BHeader02 {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bheade44.png') no-repeat scroll left top;
+	padding: 0 0 0 76px;
+	height: 208px;
+}
+.BHeader .BHeader01 .BHeader02 .BHeaderLogo {
+	width: 786px;
+	height: 208px;
+	margin: auto;
+}
+.BHeaderLogo .BRight {
+	background: transparent url('http://i39.servimg.com/u/f39/18/88/11/12/bheade12.png') no-repeat;
+	width: 154px;
+	height: 208px;
+	float: right;
+}
+.BHeaderLogo .BLogo {
+	background: transparent url('https://i63.servimg.com/u/f63/20/28/17/29/bheade15.png') no-repeat;
+	width: 452px;
+	height: 208px;
+	float: right;
+}
+.BHeaderLogo .BLeft {
+	background: transparent url('http://i39.servimg.com/u/f39/18/88/11/12/bheade11.png') no-repeat;
+	width: 180px;
+	height: 208px;
+	float: right;
+}
+/* bdayh content */
+.BContent {
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+}
+.BContent .BContentRight {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bconte20.png') repeat-y scroll right center;
+	width: 35px;
+}
+.BContent .BContentCenter {
+	background: #FFF;
+	vertical-align: top;
+	padding: 0 0 15px 0;
+}
+.BContent .BContentLeft {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bconte21.png') repeat-y scroll left center;
+	width: 35px;
+}
+/* bdayh footer */
+.BFooter {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bfoote27.png') repeat-x scroll center top;
+	height: 72px;
+}
+.BFooter .BFooterRight {
+	background: transparent url('https://i63.servimg.com/u/f63/20/28/17/29/bfoote15.png') no-repeat scroll right top;
+	padding: 0 436px 0 0;
+	height: 72px;
+}
+.BFooter .BFooterRight .BFooterLeft {
+	float: left;
+	background: transparent url('https://i73.servimg.com/u/f73/14/44/77/00/bfoote20.png') no-repeat scroll left top;
+	width: 144px;
+	height: 72px;
+}
+/* Bdayh Cat Block */
+.BdCatBlock {
+	margin: 10px 10px;
+	clear: both;
+}
+/* BdayhCatTop */
+.bdayh-cattopbg {
+	width: 100%;
+	height: 69px;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc45.png') repeat-x scroll center bottom;
+}
+.bdayh-cattopright {
+	width: 332px;
+	height: 69px;
+	background: transparent url('https://i63.servimg.com/u/f63/20/28/17/29/bdayhc15.png') no-repeat scroll right top;
+	float: right;
+}
+.bdayh-cattopleft {
+	width: 50px;
+	height: 69px;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc46.png') no-repeat scroll left bottom;
+	float: left;
+}
+/* BdayhCatBottom */
+.bdayh-catendbg {
+	width: 100%;
+	height: 17px;
+	font-size: 1px;
+	background: url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc47.png') repeat-x;
+}
+.bdayh-catendright {
+	width: 17px;
+	height: 17px;
+	font-size: 1px;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc48.png') no-repeat scroll right bottom;
+	float: right;
+}
+.bdayh-catendleft {
+	width: 17px;
+	height: 17px;
+	font-size: 1px;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc49.png') no-repeat scroll left bottom;
+	float: left;
+}
+/* BdayhCatCenter */
+.bdayh-catright {
+	padding-right: 17px;
+	background: #f0f0f0 url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc50.png') repeat-y right;
+}
+.bdayh-catleft {
+	padding-left: 17px;
+	background: url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc51.png') repeat-y left;
+}
+.BdCatBlockBody {
+	padding: 3px;
+	overflow: hidden;
+	display: block;
+}
+/* Bdayh Ehdaa */
+.BEhdaa {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/behdaa26.png') repeat-x scroll center top;
+	height: 55px;
+	width: 800px;
+	margin: auto;
+	margin-bottom: 8px;
+}
+.BEhdaa .BLeft {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/behdaa27.png') no-repeat scroll left top;
+	padding: 0 0 0 12px;
+	height: 55px;
+	line-height: 50px;
+	color: #6e6e6e;
+	text-shadow: 0px 1px 0px #FFF;
+}
+.BEhdaa .BLeft a {
+	color: #6e6e6e;
+	text-shadow: 0px 1px 0px #FFF;
+}
+.BEhdaa .BLeft .BRight {
+	float: right;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/behdaa28.png') no-repeat scroll right top;
+	width: 171px;
+	height: 55px;
+	float: right;
+}
+.BEhdaa .BLeft .BRRight {
+	float: right;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/blast015.png') no-repeat scroll right top;
+	width: 171px;
+	height: 55px;
+	float: right;
+}
+/* Bdayh Tmez */
+.BTmez {
+	width: 805px;
+	margin: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.BTmez li {
+	display: inline;
+	float: right;
+	background: transparent url('https://i63.servimg.com/u/f63/20/28/17/29/ecza5115.png') no-repeat scroll center center;
+	width: 161px;
+	height: 48px;
+	padding: 70px 15px 0 15px;
+	margin: 0 5px;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: center;
+	color: #6e6e6e;
+	text-shadow: 0px 1px 0px #FFF;
+}
+.BTmez li a {
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: center;
+	color: #6e6e6e;
+	text-shadow: 0px 1px 0px #FFF;
+}
+/* bdayh adv */
+.BAdv {
+	width: 782px;
+	margin: auto;
+	border-collapse: separate;
+	margin-top: 15px;
+}
+.BAdv .tcat {
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	font-weight: bold;
+}
+/* Adv */
+.BAdv468 {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/badv4616.png') no-repeat;
+	width: 468px;
+	height: 60px;
+}
+.BAdv150 {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/badv1516.png') no-repeat;
+	width: 150px;
+	height: 60px;
+}
+.BAdv317 {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/badv3116.png') no-repeat;
+	width: 150px;
+	height: 317px;
+}
+/*************************************************************************************/
+/*									My vB Des										 */
+/*************************************************************************************/
+body {
+	color: #4e3881;
+}
+a:link, body_alink {
+	color: #4e3881;
+}
+a:visited, body_avisited {
+	color: #4e3881;
+}
+a:hover, a:active, body_ahover {
+	color: #292f3b;
+}
+.page {
+	background: transparent;
+	color: #4e3881;
+}
+.tborder {
+	background: #FFF;
+	border: none;
+}
+.tcat {
+	background: #6540be url('http://i56.servimg.com/u/f56/14/71/20/17/btcat17.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #251155;
+	border-bottom: 1px #53339f solid;
+}
+.tcat a:link, .tcat_alink {
+	color: #FFF;
+}
+.tcat a:visited, .tcat_avisited {
+	color: #FFF;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover {
+	color: #FFF;
+}
+#fa_toolbar {
+	background: #6540be url('http://i56.servimg.com/u/f56/14/71/20/17/btcat17.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #251155;
+	border-bottom: 1px #53339f solid;
+}
+.thead {
+	background: #f6f6f6 url('http://i56.servimg.com/u/f56/14/71/20/17/bthead15.png') repeat-x center top;
+	color: #292f3b;
+	text-shadow: 0 1px 0 #ffffff;
+	border-bottom: 1px #efefef solid;
+}
+.thead a:link, .thead_alink {
+	color: #404040;
+}
+.thead a:visited, .thead_avisited {
+	color: #404040;
+}
+.thead a:hover, .thead a:active, .thead_ahover {
+	color: #4e3881;
+}
+.tfoot {
+	background: #6540be url('http://i56.servimg.com/u/f56/14/71/20/17/btcat17.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #251155;
+	border-bottom: 1px #53339f solid;
+}
+.tfoot a:link, .tfoot_alink {
+	color: #FFF;
+}
+.tfoot a:visited, .tfoot_avisited {
+	color: #FFF;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover {
+	color: #FFF;
+}
+.alt1, .alt1Active {
+	background: #fcfcfc;
+	color: #454545;
+	border-top: 1px #FFF solid;
+	border-left: 1px #FFF solid;
+	border-right: 1px #eeeeee solid;
+	border-bottom: 1px #eeeeee solid;
+	text-shadow: 0 1px 0 #FFF;
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink {
+	color: #4e3881;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited {
+	color: #4e3881;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover {
+	color: #292f3b;
+}
+.alt2, .alt2Active {
+	background: #F8F8F8;
+	color: #454545;
+	border-top: 1px #FFF solid;
+	border-left: 1px #FFF solid;
+	border-right: 1px #eeeeee solid;
+	border-bottom: 1px #eeeeee solid;
+	text-shadow: 0 1px 0 #FFF;
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink {
+	color: #4e3881;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited {
+	color: #4e3881;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover {
+	color: #292f3b;
+}
+.inlinemod {
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg {
+	background-color: #F8F8F8;
+	color: #454545;
+}
+textarea, .bginput {
+	background: #F8F8F8 url('http://i56.servimg.com/u/f56/14/71/20/17/blight17.jpg') repeat-x center top;
+	color: #454545;
+	border : 1px #eeeeee solid;
+	text-shadow: 0 1px 0 #FFF;
+}
+.button {
+	background: #6540be url('http://i56.servimg.com/u/f56/14/71/20/17/btcat17.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #251155;
+}
+select {
+	background: #F8F8F8 url('http://i56.servimg.com/u/f56/14/71/20/17/blight17.jpg') repeat-x center top;
+	color: #454545;
+	border : 1px #eeeeee solid;
+}
+.time {
+	color: #292f3b;
+}
+.highlight {
+	color: #FF0000;
+}
+.fjsel {
+	background: #F8F8F8;
+	color: #454545;
+}
+.fjdpth0 {
+	background: #F8F8F8;
+	color: #454545;
+}
+.panel {
+	background: #F8F8F8;
+	color: #454545;
+}
+.panelsurround {
+	background: #F8F8F8;
+	color: #454545;
+}
+legend {
+	background: #6540be url('http://i56.servimg.com/u/f56/14/71/20/17/btcat17.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #251155;
+}
+.vbmenu_control {
+	background: #6540be url('http://i56.servimg.com/u/f56/14/71/20/17/btcat17.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #251155;
+}
+.vbmenu_control a:link, .vbmenu_control_alink {
+	color: #FFF;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited {
+	color: #FFF;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover {
+	color: #FFF;
+}
+.vbmenu_popup {
+	background: #F8F8F8;
+	color: #454545;
+}
+.vbmenu_option {
+	background: #F8F8F8;
+	color: #454545;
+}
+.vbmenu_option a:link, .vbmenu_option_alink {
+	color: #4e3881;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited {
+	color: #4e3881;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover {
+	color: #292f3b;
+}
+.vbmenu_hilite {
+	background: #FFF;
+	color: #454545;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink {
+	color: #4e3881;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited {
+	color: #4e3881;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover {
+	color: #292f3b;
+}
+.panel .vBulletin_editor {
+	background: #FFF;
+	border: 1px #eeeeee solid;
+}
+.vBulletin_editor .controlbar fieldset iframe {
+	border: none;
+}
