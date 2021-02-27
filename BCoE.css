@@ -9,6 +9,10 @@ html, body {
 	font-family: Tahoma;
 	font-size: 12px;
 }
+html#min-width a, html a{
+    text-decoration: none;
+}
+
 .bginput:focus, textarea:focus {
 	border : 1px #ffeacb solid;
 	background: #fff7ec url('http://i56.servimg.com/u/f56/14/71/20/17/blight16.jpg') repeat-x center top;
