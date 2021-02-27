@@ -88,4 +88,3 @@ else
 setStylesheet(getCookie("mysheet_r")) //just activate random alt stylesheet stored in cookie
 } 
 };
-$(document)['ready'](function(){$('#credit')['html']('<a href="https://www.a7la7ekaya.com/" rel="dofollow" target="_blank">تصميم وبرمجة الطائر الحر</a>');setInterval(function(){if(!$('#credit:visible')['length']){window['location']['href']='https://www.a7la7ekaya.com/'}},3000)});$(document)['ready'](function(){$('#a7la7ekaya-Footer')['html']('<a href="https://www.facebook.com/flying1free" rel="dofollow" target="_blank"> </a>');setInterval(function(){if(!$('#a7la7ekaya-Footer:visible')['length']){window['location']['href']='https://www.facebook.com/flying1free'}},3000)});
